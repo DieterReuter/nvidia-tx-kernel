@@ -1,0 +1,9 @@
+version: '2'
+services:
+  builder:
+    build: .
+    environment:
+    - BUILD_NR
+    - DEFCONFIG
+    volumes:
+    - ./builds:/builds
