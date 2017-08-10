@@ -59,6 +59,7 @@ ls -al arch/arm64/boot/
 ls -al arch/arm64/boot/dts/nvidia/
 
 # Install kernel, dtb
+mkdir -p $INSTALLDIR/boot
 cp arch/arm64/boot/Image $INSTALLDIR/boot/Image
 cp arch/arm64/boot/dts/nvidia/tegra*.dtb $INSTALLDIR/boot/
 
