@@ -55,7 +55,8 @@ rm $INSTALLDIR/lib/modules/$KR/{build,source}
 depmod -a -b $INSTALLDIR $KR
 
 # List build results
-ls -al cp arch/arm64/boot/*
+ls -al arch/arm64/boot/
+ls -al arch/arm64/boot/dts/nvidia/
 
 # Install kernel, dtb
 cp arch/arm64/boot/Image $INSTALLDIR/boot/Image
