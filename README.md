@@ -1,6 +1,6 @@
 
 # Building NVIDIA TX1/TX2 Linux Kernel the Docker Way
-[![Build Status](https://travis-ci.com/DieterReuter/nvidia-tx1-kernel.svg?token=ExPqNxiRaVAPsjieDH9T&branch=master)](https://travis-ci.com/DieterReuter/nvidia-tx1-kernel)
+[![Build Status](https://travis-ci.org/DieterReuter/nvidia-tx-kernel.svg?branch=master)](https://travis-ci.org/DieterReuter/nvidia-tx-kernel)
 
 
 ## Prerequisites
